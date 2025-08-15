@@ -1,0 +1,14 @@
+# Author: Eon
+# Created: 2025-08-15
+# Description: Python dependencies for Kafka Kerberos utility
+# License: MIT
+# Repository: https://github.com/eon/kafka-python-kerberos
+
+kafka-python==2.0.2
+python-dotenv==1.0.0
+configparser==6.0.0
+
+# Optional: Kerberos/GSSAPI support
+# Note: gssapi requires system dependencies: libkrb5-dev libsasl2-dev libssl-dev krb5-config
+# Install with: sudo apt-get install libkrb5-dev libsasl2-dev libssl-dev krb5-config
+# gssapi==1.8.2
